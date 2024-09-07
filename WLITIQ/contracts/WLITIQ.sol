@@ -2449,17 +2449,17 @@ contract WALLITIQ is ERC20, ERC20Burnable, ERC20Pausable, Ownable, ERC20Permit {
         _mint(msg.sender, 1000000000 * 10 ** decimals());
     }
 
-    function pause() public onlyOwner {
-        _pause();
-    }
+    // function pause() public onlyOwner {
+    //     _pause();
+    // }
 
-    function unpause() public onlyOwner {
-        _unpause();
-    }
+    // function unpause() public onlyOwner {
+    //     _unpause();
+    // }
 
-    function mint(address to, uint256 amount) public onlyOwner {
-        _mint(to, amount);
-    }
+    // function mint(address to, uint256 amount) public onlyOwner {
+    //     _mint(to, amount);
+    // }
 
     // The following functions are overrides required by Solidity.
 
