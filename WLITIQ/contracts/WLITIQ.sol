@@ -2442,7 +2442,7 @@ pragma solidity ^0.8.20;
 
 contract WALLITIQ is ERC20, ERC20Burnable, ERC20Pausable, Ownable, ERC20Permit {
     constructor(address initialOwner)
-        ERC20("WALLITIQ", "WLTIQ")
+        ERC20("WALLITIQ", "WLTQ")
         Ownable(initialOwner)
         ERC20Permit("WALLITIQ")
     {
